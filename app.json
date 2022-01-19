@@ -1,0 +1,40 @@
+{
+    "name": "BERLIN THE HACKBOT",
+    "description": "A bot that can do anything.",
+    "logo": "",
+    "keywords": [
+        "TELETHON",
+        "sajal",
+        "Telegram Bot",
+        "session",
+        "hackbot"
+    ],
+    "website": "",
+    "success_url": "https://t.me/Berlinthehack_bot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org/apps",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org/apps",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
